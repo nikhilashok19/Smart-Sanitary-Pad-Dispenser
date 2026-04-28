@@ -1,4 +1,6 @@
 from weasyprint import HTML
+
+# Content for the README.md
 An ESP32-based automated sanitary pad dispenser featuring **Biometric Authentication (Fingerprint)** and **Mobile Integration (BLE)**. This system allows for secure user enrollment via a smartphone app and automated dispensing using a stepper motor and IR sensor feedback.
 
 ## 🚀 Key Features
@@ -91,4 +93,3 @@ When a valid fingerprint (ID > 10) is detected:
 - **Power**: The 28BYJ-48 motor requires an external 5V-12V power supply; do not power it directly from the ESP32 pins.
 - **Baud Rate**: The fingerprint sensor is configured for `57600`. Ensure your sensor hardware matches this setting.
 - **Security**: IDs 1 through 10 are hardcoded to trigger the **Locker Relay**, while higher IDs trigger the **Dispenser**.
-
