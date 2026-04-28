@@ -1,6 +1,4 @@
-from weasyprint import HTML
-
-# Content for the README.md
+# Smart Sanitary Pad Dispenser for Women Health
 An ESP32-based automated sanitary pad dispenser featuring **Biometric Authentication (Fingerprint)** and **Mobile Integration (BLE)**. This system allows for secure user enrollment via a smartphone app and automated dispensing using a stepper motor and IR sensor feedback.
 
 ## 🚀 Key Features
